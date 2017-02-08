@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+#wrap {
+	width: 855px;
+	margin: 0 auto;
+}
+
 body {
 	min-width: 855px;
 	margin-left: 90px;
