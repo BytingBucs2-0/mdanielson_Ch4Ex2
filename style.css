@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 855px;
+	margin-left: 90px;
+	margin-right: 90px;
+	background: ivory;
+}
+
+header {
+	border-bottom: 1px solid gray;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+}
+
+header p {
+	float: right;
+	width: 570px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 5px;
+}
+
+main {
+	overflow: auto;
+	padding-top: 30px;	
+	padding-bottom: 30px;
+	border-bottom: 1px solid gray;
+}
+
+.comment-input {
+	float: left;
+	width: 285px;
+}
+
+.comment-input h3 {
+	padding-bottom: 3px;
+}
+
+.comment-input input {
+	font-size: 1.2em;
+	background: white;
+	font-weight: bold;
+}
+
+.comment-input button {
+	background: red;
+	color: white;
+	font-size: 20px;
+	margin-left: 3px;
+	font-weight: bold;
+	padding: 2px;
+	text-align: center;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.comments {
+	float: right;
+	width: 570px;
+}
+
+.comments p {
+	padding: 4px;
+	margin: 6px;
+	font-size: 18px;	
+	border-radius: 3px;
+}
+
+.comments p:nth-child(even) {
+	background: lavender;
+}
+.comments p:nth-child(odd) {
+	background: gainsboro;
+}
+
+footer {
+	float: left;
+	margin-top: 5px;
+	clear: both;
+}
